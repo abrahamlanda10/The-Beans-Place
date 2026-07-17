@@ -30,7 +30,6 @@
 
 /* --- YOUR IMPORTS GO HERE --- */
 
-
 // STEP 2: Create and export the App component
 // Use: export default function App() { ... }
 //
@@ -56,50 +55,38 @@
 /* --- YOUR COMPONENT CODE GOES HERE --- */
 // imports go below here
 import NavBar from "./components/NavBar";
+import HeroSection from "./components/HeroSection";
 
 export default function App() {
-    
-    return(
+    return (
         <div className="app">
             {/* NAVBAR */}
-            <NavBar/>
+            <NavBar />
 
             {/* HERO */}
             <section className="hero bg-hero">
                 <div className="hero-grid">
-
+                    <HeroSection/>
                 </div>
             </section>
 
             {/* FEATURES / CAROUSEL */}
-            <section className="features bg-features" id="shop">
-
-            </section>
+            <section className="features bg-features" id="shop"></section>
 
             {/* PRODUCT SHOWCASE */}
-            <section className="bg-cta">
-
-            </section>
+            <section className="bg-cta"></section>
 
             {/* CTA */}
-            <section className="bg-cta">
+            <section className="bg-cta"></section>
 
-            </section>
-
-            {/*ABOUT */}
-            <section className="bg-cta" id="about">
-
-            </section>
+            {/* ABOUT */}
+            <section className="bg-cta" id="about"></section>
 
             {/* CONTACT */}
-            <section className="bg-cta" id="contact">
-
-            </section>
+            <section className="bg-cta" id="contact"></section>
 
             {/* FOOTER */}
-            <section className="bg-footer">
-
-            </section>
+            <section className="bg-footer"></section>
         </div>
     );
 }
